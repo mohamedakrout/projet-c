@@ -48,7 +48,7 @@ void menuAjouterPropriete(Portefeuille* portefeuille) {
     printf("Entrer l'adresse de la propriete : ");
     fgets(adresse, sizeof(adresse), stdin);
     adresse[strcspn(adresse, "\n")] = '\0';
-    printf("Statut (0 = Disponible, 1 = Occupé) : ");
+    printf("Statut (0 = Disponible, 1 = OccupÃ©) : ");
     scanf("%d", &estOccupe);
     getchar();
     if (estOccupe == 1) {
